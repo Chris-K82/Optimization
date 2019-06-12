@@ -1,1 +1,1 @@
-# ml_for_python_2019
+# ML for Python 2019

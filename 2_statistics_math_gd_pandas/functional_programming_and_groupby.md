@@ -20,3 +20,9 @@ Find the greatest common divisor of a list of numbers using Reduce. Explain how 
 The function should print out key-value pairs by groups (as output from Python groupby). The print statements between groups should have an empty line. Print statements inside-group should not have empty lines in between (just new lines between records).
 
 2. Add a decorator ‘ensure_sourted_grouper’ that overrides the grouping, by making sure that the list is sorted when an argument ‘verify_sorted’ = True is passed. Otherwise, “You didn’t enforce the order” is printed to the console.
+
+## Task 4 (4p)
+
+In your own words, describe what is functional programming and how you can write functional programming code in Python (start here: https://docs.python.org/3/library/functional.html)
+
+

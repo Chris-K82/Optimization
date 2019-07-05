@@ -21,7 +21,7 @@ The function should print out key-value pairs by groups (as output from Python g
 
 2. Add a decorator ‘ensure_sourted_grouper’ that overrides the grouping, by making sure that the list is sorted when an argument ‘verify_sorted’ = True is passed. Otherwise, “You didn’t enforce the order” is printed to the console.
 
-## Task 4 (4p)
+## Task 4 (5p)
 
 In your own words, describe what is functional programming and how you can write functional programming code in Python (start here: https://docs.python.org/3/library/functional.html)
 

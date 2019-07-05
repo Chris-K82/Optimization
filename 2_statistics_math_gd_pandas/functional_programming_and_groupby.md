@@ -2,6 +2,7 @@
 ## Working format : In new pairs, given by Kedar on July 5th
 
 
+## Best solution will get extra points to the final exam
 
 ## Task 1 (2p)
 

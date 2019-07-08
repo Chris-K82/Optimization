@@ -8,7 +8,7 @@
 
 Write functional programming code to apply a list of functions on a list of integers. Explain how it works as well and how it relates to functional programing.
 
-## Task 2 (2p)
+## Task 2 (4 p)
 
 Find the greatest common divisor of a list of numbers using Reduce. Explain how the code works as well. Explain how it works as well and how it relates to functional programing.
 

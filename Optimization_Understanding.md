@@ -9,18 +9,18 @@
     solution. For machine learning, often this amount to minimizing some error measure or maximizing
     some utility function.
 
-  For example:
+    For example:
 
-  Example question : The regular air fare between Boston and San Francisco is 500 dolars . An
-  airline using
-  planes with a capacity of 300 passengers on this route observes that they fly with an average of
-  180 passengers. Market research tells the airlines’ managers that each $ 5 fare reduction would
-  attract, on average, 3 more passengers for each flight. How should they set the fare to maximize
-  their revenue? Explain your reasoning to receive credit.
+    Example question : The regular air fare between Boston and San Francisco is 500 dolars . An
+    airline using
+    planes with a capacity of 300 passengers on this route observes that they fly with an average of
+    180 passengers. Market research tells the airlines’ managers that each $ 5 fare reduction would
+    attract, on average, 3 more passengers for each flight. How should they set the fare to maximize
+    their revenue? Explain your reasoning to receive credit.
 
-  1. Variables : 1- Air fare which will be regulated 2- Quantity of passengers
-  2. Constraints : Air fare should be regulated by preserving from making loss.
-  3. Objective Function : Making the most profit arranging with number of quantity of passengers and   air fare
+    1. Variables : 1- Air fare which will be regulated 2- Quantity of passengers
+    2. Constraints : Air fare should be regulated by preserving from making loss.
+    3. Objective Function : Making the most profit arranging with number of quantity of passengers and   air fare
   
 2. Why is optimization important in machine learning? Give some examples. 
    Optimization is used to find more accurate results by using loss function. And in machine

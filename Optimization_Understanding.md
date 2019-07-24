@@ -3,3 +3,4 @@
 
 4. The "Hessian" or "Hessian Matrix" is a list of values which represent the slope of the cost-functions curve at a given data point. The Hessian values basically tell the algorithm 1. which direction comprises the steepest gradient toward a global minimum and 2. what direction that gradient is in.
 
+Hello

@@ -2,7 +2,7 @@
 
 1. What are the basic elements of optimization? Give some examples.
   
-  Basic elements of optimization:
+  A. Basic elements of optimization:
   1. Variables: Parameters which will be passed to optimization algorithm.
   2. Constraints: These are the boundaries within which the parameters (or some combination thereof) must fall
   3. Objective Function: This is the set of goal towards which the algorithm drives the 
@@ -22,12 +22,12 @@
     2. Constraints : Air fare should be regulated by preserving from making loss.
     3. Objective Function : Making the most profit arranging with number of quantity of passengers and   air fare
   
-2. Why is optimization important in machine learning? Give some examples. 
-   Optimization is used to find more accurate results by using loss function. And in machine
-   learning, Predicted values are deduced from some finite data. That's why optimization is very
-   important for machine learning algorithms. **For example** while working on neural networks,
-   arranging weight and type of nodes is done by result of optimization of
-   loss function between predicted values and actual values. 
+  B. Why is optimization important in machine learning? Give some examples. 
+     Optimization is used to find more accurate results by using loss function. And in machine
+     learning, Predicted values are deduced from some finite data. That's why optimization is very
+     important for machine learning algorithms. **For example** while working on neural networks,
+     arranging weight and type of nodes is done by result of optimization of
+     loss function between predicted values and actual values. 
 
 
 2. Recollect : What is a loss function /cost function? Give examples 

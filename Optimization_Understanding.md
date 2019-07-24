@@ -3,11 +3,11 @@
 1. What are the basic elements of optimization? Give some examples.
   
   A. Basic elements of optimization:
-  1. Variables: Parameters which will be passed to optimization algorithm.
-  2. Constraints: These are the boundaries within which the parameters (or some combination thereof) must fall
-  3. Objective Function: This is the set of goal towards which the algorithm drives the 
-    solution. For machine learning, often this amount to minimizing some error measure or maximizing
-    some utility function.
+     1. Variables: Parameters which will be passed to optimization algorithm.
+     2. Constraints: These are the boundaries within which the parameters (or some combination thereof) must fall
+     3. Objective Function: This is the set of goal towards which the algorithm drives the 
+     solution. For machine learning, often this amount to minimizing some error measure or maximizing
+     some utility function.
 
     For example:
 

@@ -52,3 +52,25 @@
    functions curve at a given
    data point. The Hessian values basically tell the algorithm 1. which direction comprises the
    steepest gradient toward a global minimum and 2. what direction that gradient is in.
+   
+5. The quadratic form elicits a parabola representing the error rate comparisons over a range for a
+   cost/loss function which aids in understanding what optimization is trying to accomplish. Think
+   of the Hessian value as being similarly related to an eigenvalue in that the eigenvalue is the
+   radial distance from axis of points along an elipse. The Hessian value is the slope of a tangent
+   line at a given point vs. the eigenvalue which is the radial distance from the central axis.
+   Think of the maholonobis distance as being representative of the arc distance along the elipse
+   from one point to another. To calculate the Maholonobis distance, one needs the radial distance
+   or eigenvalue for both points. When computing the covariance, one inverts the precision matrix so
+   as to compare covariance among different features in a data set. When computing the Hessian, the
+   output values are representative of the slope of a tangent line at each eigenvalue along the
+   elipse. This slope is representative of the shortest path to minimization/optimization. For the
+   final question as to whther one could substitute the precision matrix for the Hessian, in short,
+   no. The reason is as previously stated that we are no longer comparing the covariance of features
+   to one another so much as we are comparing the cost function values to get an error rate which is
+   very very near 0 or, contropositively a success rate very very near 1.
+   
+6. What is momentum and what problem is it solving? The Idea of Momentum in Machine learning is a
+   method to increase the speed of training gradients, in other words it is a method, which helps
+   to accelerate gradients vectors in the right directions, thus leading to faster converging. The
+   main problems that momentum solves are handling of the noisy gradients and extremely small
+   gradients in order to predict where the variable point will end up in time t.

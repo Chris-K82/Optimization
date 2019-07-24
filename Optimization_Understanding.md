@@ -21,16 +21,28 @@
   
   Why is optimization important in machine learning? Give some examples. 
 
-Optimization is used to find more accurate results by using loss function. And in machine learning, Predicted values are deduced from some finite data. That's why optimization is very important for machine learning algorithms. **For example** while working on neural networks, arranging weight and type of nodes is done by result of optimization of loss function between predicted values and actual values.
+  Optimization is used to find more accurate results by using loss function. And in machine learning, Predicted values are
+  deduced from some finite data. That's why optimization is very important for machine learning algorithms. 
+  **For example** while working on neural networks, arranging weight and type of nodes is done by result of optimization of
+  loss function between predicted values and actual values. 
 
 
 2. Recollect : What is a loss function /cost function? Give examples 
 
-*Loss function or cost function** is a function that maps an event or values of one or more variables onto a real number intuitively representing some "cost" associated with the event.Basically If predictions deviates too much from actual results, loss function would cough up a very large number. Gradually, with the help of some optimization function, loss function learns to reduce the error in prediction.
-**For example:** You have neural network which takes some data related to some house and predicts its price. Loss function is how predicted values deviates from the actual prices.
+   Loss function or cost function is a function that maps an event or values of one or more variables onto a real number
+   intuitively representing some "cost" associated with the event.Basically If predictions deviates too much from actual
+   results, loss function would cough up a very large number. Gradually, with the help of some optimization function, loss
+   function learns to reduce the error in prediction.
+   **For example:** You have neural network which takes some data related to some house and predicts its price. Loss function
+   is how predicted values deviates from the actual prices.
 
 
-3. Essentially, the eigen operator is the differential operator. The eigenvalue represents the gradient of a cost-function's curve (i.e. from areas of high error descending to low error areas. The point of knowing this is to 1. determine which features are the best indicators for a range of outputs and 2. to know in which direction of eigenvalues to trend so that the cost function ultimately reaches its global minimum therby producing values with an error rate very very near 0.
+3. Essentially, the eigen operator is the differential operator. The eigenvalue represents the gradient of a cost-function's
+   curve (i.e. from areas of high error descending to low error areas. The point of knowing this is to 1. determine which
+   features are the best indicators for a range of outputs and 2. to know in which direction of eigenvalues to trend so that
+   the cost function ultimately reaches its global minimum therby producing values with an error rate very very near 0.
 
-4. The "Hessian" or "Hessian Matrix" is a list of values which represent the slope of the cost-functions curve at a given data point. The Hessian values basically tell the algorithm 1. which direction comprises the steepest gradient toward a global minimum and 2. what direction that gradient is in.
+4. The "Hessian" or "Hessian Matrix" is a list of values which represent the slope of the cost-functions curve at a given
+   data point. The Hessian values basically tell the algorithm 1. which direction comprises the steepest gradient toward a
+   global minimum and 2. what direction that gradient is in.
 </p>
